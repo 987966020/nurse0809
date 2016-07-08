@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E5E5E5"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="chinanurse.cn.nurse.MinePage.Myinfo">
+        <!-- 标题栏-->
+        <RelativeLayout
+            style="@style/back_title_RelativeLayout">
+            <!-- 返回按钮，扩大点击面，所以用一个布局包裹住-->
+            <LinearLayout
+                style="@style/back_layout"
+                android:id="@+id/myinfo_back">
+                <ImageView
+                    style="@style/back_img"/>
+                <TextView
+                    style="@style/back_text" />
+            </LinearLayout>
+            <!-- 标题-->
+            <TextView
+               style="@style/back_title_text"
+                android:text="个人资料编辑"/>
+            <!-- 底部紫线-->
+            <TextView
+                style="@style/back_title_pupleline"/>
+        </RelativeLayout>
+        <!-- 第一块-->
+        <LinearLayout
+            style="@style/myinfo_linearlayout"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+                <TextView
+                    style="@style/myinfo_lefttext"
+                    android:text="头像"/>
+                <ImageView
+                    style="@style/study_image_right"
+                    android:id="@+id/myinfo_next1"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/img_head_nor"
+                    android:layout_toLeftOf="@+id/myinfo_next1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"/>
+            </RelativeLayout>
+            <!-- 分割线，以下同上-->
+            <TextView
+                style="@style/spiltline" />
+            <RelativeLayout
+               style="@style/study_RelativeLayout">
+                <TextView
+                    style="@style/myinfo_lefttext"
+                    android:text="用户名"/>
+                <TextView
+                    style="@style/myinfo_righttext"
+                    android:text="Alan"/>
+                <ImageView
+                    style="@style/study_image_right"/>
+            </RelativeLayout>
+            <TextView
+                style="@style/spiltline" />
+            <RelativeLayout
+                style="@style/study_RelativeLayout">
+                <TextView
+                    style="@style/myinfo_lefttext"
+                    android:text="性别"/>
+                <TextView
+                    style="@style/myinfo_righttext"
+                    android:text="女"/>
+                <ImageView
+                    style="@style/study_image_right"/>
+            </RelativeLayout>
+            <TextView
+                style="@style/spiltline" />
+            <RelativeLayout
+                style="@style/study_RelativeLayout">
+                <TextView
+                    style="@style/myinfo_lefttext"
+                    android:text="手机"/>
+                <TextView
+                    style="@style/myinfo_righttext"
+                    android:text="15673152463"/>
+                <ImageView
+                    style="@style/study_image_right"/>
+            </RelativeLayout>
+            <TextView
+                style="@style/spiltline" />
+            <RelativeLayout
+                style="@style/study_RelativeLayout">
+                <TextView
+                    style="@style/myinfo_lefttext"
+                    android:text="邮箱"/>
+                <TextView
+                    style="@style/myinfo_righttext"
+                    android:text="fanjideisgn@163.com"/>
+                <ImageView
+                    style="@style/study_image_right"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- 第二块-->
+        <LinearLayout
+        style="@style/myinfo_linearlayout"
+        >
+
+        <RelativeLayout
+            style="@style/study_RelativeLayout">
+            <TextView
+                style="@style/myinfo_lefttext"
+                android:text="姓名"/>
+            <TextView
+                style="@style/myinfo_righttext"
+                android:text="杨艳萍"/>
+            <ImageView
+                style="@style/study_image_right"/>
+        </RelativeLayout>
+        <TextView
+            style="@style/spiltline" />
+        <RelativeLayout
+            style="@style/study_RelativeLayout">
+            <TextView
+                style="@style/myinfo_lefttext"
+                android:text="出生日期"/>
+            <TextView
+                style="@style/myinfo_righttext"
+                android:text="1991-05-25"/>
+            <ImageView
+                style="@style/study_image_right"/>
+        </RelativeLayout>
+        <TextView
+            style="@style/spiltline" />
+        <RelativeLayout
+            style="@style/study_RelativeLayout">
+            <TextView
+                style="@style/myinfo_lefttext"
+                android:text="地址"/>
+            <TextView
+                style="@style/myinfo_righttext"
+                android:text="北京市-大兴区"/>
+            <ImageView
+                style="@style/study_image_right"/>
+        </RelativeLayout>
+        </LinearLayout>
+        <!-- 第三块-->
+        <LinearLayout
+            style="@style/myinfo_linearlayout"
+            android:layout_marginBottom="10dp"
+            >
+
+            <RelativeLayout
+                style="@style/study_RelativeLayout">
+                <TextView
+                    style="@style/myinfo_lefttext"
+                    android:text="学校"/>
+                <TextView
+                    style="@style/myinfo_righttext"
+                    android:text="北京应用技术大学"/>
+                <ImageView
+                    style="@style/study_image_right"/>
+            </RelativeLayout>
+            <TextView
+                style="@style/spiltline" />
+            <RelativeLayout
+                style="@style/study_RelativeLayout">
+                <TextView
+                    style="@style/myinfo_lefttext"
+                    android:text="专业"/>
+                <TextView
+                    style="@style/myinfo_righttext"
+                    android:text="软件工程"/>
+                <ImageView
+                    style="@style/study_image_right"/>
+            </RelativeLayout>
+            <TextView
+                style="@style/spiltline" />
+            <RelativeLayout
+                style="@style/study_RelativeLayout">
+                <TextView
+                    style="@style/myinfo_lefttext"
+                    android:text="学历"/>
+                <TextView
+                    style="@style/myinfo_righttext"
+                    android:text="大专"/>
+                <ImageView
+                    style="@style/study_image_right"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

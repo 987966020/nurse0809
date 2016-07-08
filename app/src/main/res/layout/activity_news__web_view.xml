@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none"
+    tools:context="chinanurse.cn.nurse.WebView.News_WebView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_size_48">
+
+            <ImageView
+                android:id="@+id/web_bac"
+                android:layout_width="@dimen/activity_size_9"
+                android:layout_height="@dimen/activity_size_17"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/activity_size_10"
+                android:src="@mipmap/ic_back" />
+
+            <TextView
+                android:id="@+id/web_back"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/activity_size_7"
+                android:layout_toRightOf="@id/web_bac"
+                android:text="返回"
+                android:textColor="@color/indicator"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="学术会议"
+                android:textColor="@color/indicator"
+                android:textSize="@dimen/text_size_18" />
+
+            <ImageView
+                android:id="@+id/webview_ff"
+                android:layout_width="@dimen/activity_size_22"
+                android:layout_height="@dimen/activity_size_22"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_size_10"
+                android:src="@mipmap/ic_fenxiang" />
+
+            <ImageView
+                android:id="@+id/webview_sc"
+                android:layout_width="@dimen/activity_size_22"
+                android:layout_height="@dimen/activity_size_22"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_size_20"
+                android:layout_toLeftOf="@id/webview_ff"
+                android:src="@mipmap/ic_shoucang" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_size_1"
+                android:layout_alignParentBottom="true"
+                android:background="@color/indicator"></View>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/web_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_size_15"
+            android:layout_marginTop="@dimen/activity_size_20"
+            android:text="中国护士网学会会议交流小组"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_22" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_size_15"
+            android:layout_marginTop="@dimen/activity_size_20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="来源:"
+                android:textColor="@color/gray6"
+                android:textSize="@dimen/text_size_12" />
+
+            <TextView
+                android:id="@+id/web_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_size_5"
+                android:text="中国护士网"
+                android:textColor="@color/gray6"
+                android:textSize="@dimen/text_size_12" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/activity_size_20"
+                android:src="@mipmap/ic_eye_purple" />
+
+            <TextView
+                android:id="@+id/web_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_size_3"
+                android:text="3346"
+                android:textColor="@color/btn_white_pressed"
+                android:textSize="@dimen/text_size_12" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/activity_size_20"
+                android:src="@mipmap/ic_time_purple" />
+
+            <TextView
+                android:id="@+id/web_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_size_3"
+                android:text="2016/06/16"
+                android:textColor="@color/btn_white_pressed"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+
+        <WebView
+            android:id="@+id/web_webview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/activity_size_20"
+            android:layout_weight="1"></WebView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_size_20"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="@dimen/activity_size_110"
+                android:layout_height="@dimen/activity_size_1"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/activity_size_5"
+                android:background="@color/gray6"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分享到" />
+
+            <View
+                android:layout_width="@dimen/activity_size_110"
+                android:layout_height="@dimen/activity_size_1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/activity_size_5"
+                android:background="@color/gray6"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/friend"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/webview_relative">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/ic_pengyouquan" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/wechat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/webview_relative">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/ic_wechat" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/weibo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/webview_relative">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/ic_weibo" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/ic_two_like"
+            />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已有"
+                android:textSize="12sp"
+                android:textColor="@color/gray6"
+                />
+            <TextView
+                android:id="@+id/web_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3624"
+                android:textSize="12sp"
+                android:textColor="@color/indicator"
+                android:layout_marginLeft="2dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="人点赞"
+                android:textSize="12sp"
+                android:textColor="@color/gray6"
+                android:layout_marginLeft="2dp"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="相关阅读"
+            android:textSize="14sp"
+            android:textColor="@color/purple"
+            android:layout_marginLeft="15dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_size_1"
+            android:layout_marginTop="@dimen/activity_size_10"
+            android:background="@color/indicator"></View>
+
+        <ListView
+            android:id="@+id/web_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+</ScrollView>

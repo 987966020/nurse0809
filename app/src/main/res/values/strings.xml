@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">中国护士网</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="stu_text1">每日一练</string>
+    <string name="stu_text2">5万道题库</string>
+    <string name="stu_text3">在线考试</string>
+    <string name="stu_text4">出国考试</string>
+    <string name="stu_text5">临床护理</string>
+    <string name="stu_text6">50项护理操作</string>
+    <string name="stu_text7">考试宝典</string>
+    <string name="stu_text8">论文护理</string>
+    <string name="nurse_text1">社区</string>
+    <string name="nurse_text2">招聘</string>
+    <string name="abroad_btn0">在线翻译</string>
+    <string name="abroad_btn1">汇率查询</string>
+    <string name="abroad_btn2">时差查询</string>
+    <string name="abroad_btn3">学历认证</string>
+    <string name="abroad_btn4">天气查询</string>
+    <string name="abroad_btn5">地图查询</string>
+    <string name="abroad_btn6">机票查询</string>
+    <string name="abroad_btn7">酒店预订</string>
+    <string name="abroad_btn8">签证查询</string>
+    <!--net-->
+    <string name="net_erroy">您的网络不稳定，请稍后再试！</string>
+    <string name="no_information">您的网络不稳定，请稍后再试！</string>
+
+</resources>

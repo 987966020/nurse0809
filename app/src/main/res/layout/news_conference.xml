@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <chinanurse.cn.nurse.ui.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray2"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <!--第一条-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/whilte">
+
+                <ImageView
+                    android:layout_marginTop="@dimen/activity_size_10"
+                    android:layout_width="@dimen/activity_size_355"
+                    android:layout_height="@dimen/activity_size_160"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@mipmap/ex_conference" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_size_10"
+                    android:layout_marginTop="@dimen/activity_size_10"
+                    android:text="中国护士网领导小组"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/activity_size_18" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_size_10"
+                        android:layout_marginTop="@dimen/activity_size_10"
+                        android:layout_marginBottom="@dimen/activity_size_10"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/activity_size_15"
+                            android:layout_height="@dimen/activity_size_10"
+                            android:layout_gravity="center_vertical"
+                            android:background="@mipmap/abroad_icon_eye" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/activity_size_2"
+                            android:text="3322"
+                            android:textColor="@color/gray5" />
+
+                        <ImageView
+                            android:layout_width="@dimen/activity_size_12"
+                            android:layout_height="@dimen/activity_size_12"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/activity_size_15"
+                            android:background="@mipmap/abroad_icon_date" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/activity_size_3"
+                            android:text="2016/3/22"
+                            android:textColor="@color/gray5" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/activity_size_10"
+                        android:layout_marginRight="@dimen/activity_size_10">
+
+                        <ImageView
+                            android:layout_width="@dimen/activity_size_12"
+                            android:layout_height="@dimen/activity_size_12"
+                            android:background="@mipmap/icon_like"
+                            android:layout_gravity="center_vertical"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/activity_size_3"
+                            android:textColor="@color/gray5"
+                            android:text="123" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <!--第二条-->
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/whilte"
+            android:layout_marginTop="@dimen/activity_size_1">
+
+            <ImageView
+                android:layout_marginTop="@dimen/activity_size_10"
+                android:layout_width="@dimen/activity_size_355"
+                android:layout_height="@dimen/activity_size_160"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/ex_conference" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_size_10"
+                android:layout_marginTop="@dimen/activity_size_10"
+                android:text="中国护士网领导小组"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/activity_size_18" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_size_10"
+                    android:layout_marginTop="@dimen/activity_size_10"
+                    android:layout_marginBottom="@dimen/activity_size_10"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/activity_size_15"
+                        android:layout_height="@dimen/activity_size_10"
+                        android:layout_gravity="center_vertical"
+                        android:background="@mipmap/abroad_icon_eye" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_size_2"
+                        android:text="3322"
+                        android:textColor="@color/gray5" />
+
+                    <ImageView
+                        android:layout_width="@dimen/activity_size_12"
+                        android:layout_height="@dimen/activity_size_12"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/activity_size_15"
+                        android:background="@mipmap/abroad_icon_date" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_size_3"
+                        android:text="2016/3/22"
+                        android:textColor="@color/gray5" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/activity_size_10"
+                    android:layout_marginRight="@dimen/activity_size_10">
+
+                    <ImageView
+                        android:layout_width="@dimen/activity_size_12"
+                        android:layout_height="@dimen/activity_size_12"
+                        android:background="@mipmap/icon_like" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/activity_size_3"
+                        android:textColor="@color/gray5"
+                        android:text="123" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+            <!--第三条-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/whilte"
+                android:layout_marginTop="@dimen/activity_size_1">
+
+                <ImageView
+                    android:layout_marginTop="@dimen/activity_size_10"
+                    android:layout_width="@dimen/activity_size_355"
+                    android:layout_height="@dimen/activity_size_160"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@mipmap/ex_conference" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_size_10"
+                    android:layout_marginTop="@dimen/activity_size_10"
+                    android:text="中国护士网领导小组"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/activity_size_18" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_size_10"
+                        android:layout_marginTop="@dimen/activity_size_10"
+                        android:layout_marginBottom="@dimen/activity_size_10"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/activity_size_15"
+                            android:layout_height="@dimen/activity_size_10"
+                            android:layout_gravity="center_vertical"
+                            android:background="@mipmap/abroad_icon_eye" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/activity_size_2"
+                            android:text="3322"
+                            android:textColor="@color/gray5" />
+
+                        <ImageView
+                            android:layout_width="@dimen/activity_size_12"
+                            android:layout_height="@dimen/activity_size_12"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/activity_size_15"
+                            android:background="@mipmap/abroad_icon_date" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/activity_size_3"
+                            android:text="2016/3/22"
+                            android:textColor="@color/gray5" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/activity_size_10"
+                        android:layout_marginRight="@dimen/activity_size_10">
+
+                        <ImageView
+                            android:layout_width="@dimen/activity_size_12"
+                            android:layout_height="@dimen/activity_size_12"
+                            android:background="@mipmap/icon_like" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/activity_size_3"
+                            android:textColor="@color/gray5"
+                            android:text="123" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </chinanurse.cn.nurse.ui.ReboundScrollView>
+
+</LinearLayout>
